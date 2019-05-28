@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+/packages
+/WebSocketChat.WinForms/bin
+/WebSocketChat.WinForms/obj
+/WebSocketChat.CLI/bin
+/WebSocketChat.CLI/obj
+/WebSocketChat.Server/vendor
+/WebSocketChat.Shared/bin
+/WebSocketChat.Shared/obj

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{346EB0C2-5A26-4000-BE7E-160A7A1AC027}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".editorconfig" />
+    <Content Include=".gitignore" />
+    <Content Include="assets\README.md" />
+    <Content Include="components\Logo.vue" />
+    <Content Include="components\README.md" />
+    <Content Include="layouts\default.vue" />
+    <Content Include="layouts\README.md" />
+    <Content Include="middleware\README.md" />
+    <Content Include="nuxt.config.js" />
+    <Content Include="package.json" />
+    <Content Include="pages\index.vue" />
+    <Content Include="pages\README.md" />
+    <Content Include="plugins\README.md" />
+    <Content Include="README.md" />
+    <Content Include="static\favicon.ico" />
+    <Content Include="static\README.md" />
+    <Content Include="store\README.md" />
+    <Content Include="yarn.lock" />
+  </ItemGroup>
+</Project>
